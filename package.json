@@ -30,6 +30,9 @@
   "browserify-shim": {
     "react": "global:React"
   },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "prepublish": "npm run compile",
     "compile": "babel --presets es2015,stage-1,react -d lib/ src/",

@@ -40,15 +40,6 @@ gulp.task('publish:tag', function (done) {
 });
 
 /**
- * build task
- */
-
-gulp.task('build', function() {
-	gulp.src('src/PlotlyComponent.js')
-		.pipe(gulp.dest('dist'));
-});
-
-/**
  * npm publish task
  * * (version *must* be bumped first)
  */
